@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+
+    // Input marks
+    printf("Enter marks for subject A: ");
+    scanf("%d", &a);
+
+    printf("Enter marks for subject B: ");
+    scanf("%d", &b);
+
+    printf("Enter marks for subject C: ");
+    scanf("%d", &c);
+
+    // Function-like logic for each subject
+    printf("\nGrades:\n");
+
+    // Grade for A
+    printf("Subject A (%d): ", a);
+    if (a >= 90)
+        printf("A\n");
+    else if (a >= 80)
+        printf("B\n");
+    else if (a >= 70)
+        printf("C\n");
+    else if (a >= 60)
+        printf("D\n");
+    else if (a >= 40)
+        printf("E\n");
+    else
+        printf("F (Fail)\n");
+
+    // Grade for B
+    printf("Subject B (%d): ", b);
+    if (b >= 90)
+        printf("A\n");
+    else if (b >= 80)
+        printf("B\n");
+    else if (b >= 70)
+        printf("C\n");
+    else if (b >= 60)
+        printf("D\n");
+    else if (b >= 40)
+        printf("E\n");
+    else
+        printf("F (Fail)\n");
+
+    // Grade for C
+    printf("Subject C (%d): ", c);
+    if (c >= 90)
+        printf("A\n");
+    else if (c >= 80)
+        printf("B\n");
+    else if (c >= 70)
+        printf("C\n");
+    else if (c >= 60)
+        printf("D\n");
+    else if (c >= 40)
+        printf("E\n");
+    else
+        printf("F (Fail)\n");
+
+    return 0;
+}
